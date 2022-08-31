@@ -1,3 +1,8 @@
+# 
+# docker-compose.yaml 
+# copied by LV6LV from networkchuck (https://youtu.be/DM65_JyGxCo)
+# use (https://yamlchecker.com/) to check that .yaml syntax is valid 
+#
 version: "3"
 services:
   web:
