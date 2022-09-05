@@ -50,6 +50,7 @@ services:
   gitlab:
     image: vulhub/gitlab:13.10.1
     depends_on:
+      - redis
       - postgresql
       - "8089:80"
       - "10022:22"
