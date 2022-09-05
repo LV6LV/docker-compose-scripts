@@ -48,6 +48,7 @@ services:
       hacked:
         ipv4_address: 192.168.45.51
   gitlab:
+    image: vulhub/gitlab:13.10.1
     depends_on:
       - postgresql
       - "8089:80"
