@@ -52,6 +52,7 @@ services:
     depends_on:
       - redis
       - postgresql
+      ports:
       - "8089:80"
       - "10022:22"
     environment:
