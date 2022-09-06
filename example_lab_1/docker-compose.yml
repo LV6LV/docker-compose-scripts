@@ -128,11 +128,11 @@ services:
     ports:
       - "8182:80"
     depends_on:
-      - mysql2
+      - mysql_db
     networks:
       lab1:
         ipv4_address: 192.168.45.31
-  mysql2:
+  mysql_db:
     image: mysql:5.5
     environment:
       - MYSQL_RANDOM_ROOT_PASSWORD=yes
